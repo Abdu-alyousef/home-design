@@ -1,6 +1,6 @@
 .features {
     grid-column: center-start / center-end;
-    margin: 10rem 0;
+    margin: 7rem 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 5rem;
@@ -35,6 +35,6 @@
     }
 
     &__text {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }

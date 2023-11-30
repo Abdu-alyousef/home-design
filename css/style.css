@@ -31,7 +31,7 @@ body {
   grid-template-rows: min-content;
   align-items: center; }
   .header__logo {
-    padding: 4rem;
+    padding: 1rem 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     justify-content: space-between;
@@ -113,7 +113,7 @@ body {
     padding-bottom: .5rem;
     padding-left: .5rem; }
   .cardTxt__text {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .cardTxt__btn {
     font-weight: 400;
     color: #fff;
@@ -142,7 +142,7 @@ body {
     grid-row: 2 / 3; }
   .card__text {
     grid-row: 3 / 4;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff; }
   .card__btn:link, .card__btn:visited {
     color: #fff;
@@ -171,7 +171,7 @@ body {
 
 .features {
   grid-column: center-start / center-end;
-  margin: 10rem 0;
+  margin: 7rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem;
@@ -199,7 +199,7 @@ body {
     font-size: 5rem;
     transform: translateY(-1rem); }
   .feature__text {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
 
 .contact {
   grid-column: center-start / center-end;

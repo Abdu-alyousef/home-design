@@ -97,7 +97,7 @@ body {
 
 .cards {
   grid-column: center-start / center-end;
-  margin: 15rem 0;
+  margin-top: 15rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-row-gap: 5rem;
@@ -171,7 +171,7 @@ body {
 
 .features {
   grid-column: center-start / center-end;
-  margin: 7rem 0;
+  margin-top: 15rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 5rem;
@@ -203,7 +203,7 @@ body {
 
 .contact {
   grid-column: center-start / center-end;
-  margin: 10rem 0;
+  margin-top: 15rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
   grid-gap: 5rem; }
@@ -217,7 +217,7 @@ body {
       padding-bottom: .5rem;
       padding-left: .5rem; }
     .contact__info--text {
-      font-size: 1.5rem; }
+      font-size: 1.6rem; }
   .contact__email {
     align-self: flex-end;
     display: grid;
@@ -253,7 +253,43 @@ body {
 
 .footer {
   grid-column: full-start / full-end;
-  background-color: greenyellow; }
+  background-color: #34302F;
+  margin-top: 15rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-gap: 5rem;
+  padding: 5rem 1rem; }
+  .footer__list {
+    list-style-type: none;
+    display: grid;
+    grid-row-gap: 1rem;
+    justify-items: center;
+    align-items: center; }
+    .footer__list--link:link, .footer__list--link:visited {
+      color: #fff;
+      border: none;
+      font-weight: 400;
+      text-decoration: none;
+      border-radius: 0;
+      font-size: 1.6rem;
+      padding: 1rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all .2s; }
+    .footer__list--link:hover, .footer__list--link:active {
+      color: #aaa; }
+    .footer__list--copy, .footer__list--text, .footer__list--head, .footer__list--icon {
+      color: #fff; }
+    .footer__list--text {
+      font-size: 1.6rem; }
+    .footer__list--icon {
+      margin: 0 2rem;
+      font-size: 3.5rem;
+      transition: all .2s;
+      cursor: pointer;
+      justify-self: center; }
+      .footer__list--icon:hover {
+        color: #aaa; }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Roboto", "sans-serif";

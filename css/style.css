@@ -37,6 +37,12 @@ body {
   justify-content: flex-start;
   padding: 2rem;
   gap: 5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .nav {
+      width: 100%;
+      justify-content: space-between;
+      padding: 0;
+      gap: 0; } }
   .nav__list {
     display: flex;
     gap: 2rem;
@@ -57,6 +63,21 @@ body {
   .nav__link:hover, .nav__link:active {
     color: #aaa;
     border-bottom: 0.3rem solid #BF9D77; }
+  .nav__link--2:link, .nav__link--2:visited, .nav__link--2:hover, .nav__link--2:active {
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 5rem;
+    visibility: hidden;
+    display: none; }
+  @media only screen and (max-width: 37.5em) {
+    .nav__link--1 {
+      visibility: hidden;
+      display: none; }
+    .nav__link--2:link, .nav__link--2:visited, .nav__link--2:hover, .nav__link--2:active {
+      visibility: visible;
+      display: inline;
+      justify-self: flex-end; } }
 
 .hero {
   grid-row: 2 / 3;
@@ -65,6 +86,10 @@ body {
   padding: 5rem;
   margin-top: 10rem;
   margin-left: 10rem; }
+  @media only screen and (max-width: 37.5em) {
+    .hero {
+      padding: 0;
+      margin-left: 2rem; } }
   .hero__head {
     grid-column: 1 / 2;
     border-left: 0.5rem solid #BF9D77;

@@ -18,6 +18,13 @@
     padding: 2rem;
     gap: 5rem;
 
+    @media only screen and (max-width: $bp-small) {
+        width: 100%;
+     justify-content: space-between;
+     padding: 0;
+    gap: 0;
+    }
+
     &__list {
         display: flex;
         gap: 2rem;
@@ -49,8 +56,33 @@
             border-bottom: .3rem solid $font-secondary;
 
         }
+
+        &--2 {
+            &:link, &:visited,  &:hover,
+            &:active {
+            border: none;
+            text-decoration: none;
+            color: #fff;
+        font-size: 5rem;
+    visibility: hidden;
+display: none; }
+        }
         
     
+        @media only screen and (max-width: $bp-small) {
+            &--1 {
+                visibility: hidden;
+                display: none;
+            }
+            &--2 {
+                &:link, &:visited,  &:hover,
+            &:active { 
+                visibility: visible;
+                display: inline;
+                justify-self: flex-end;
+            }
+            }
+        }
        
     }
 }
@@ -62,6 +94,10 @@
     padding: 5rem;
     margin-top: 10rem;
     margin-left: 10rem;
+    @media only screen and (max-width: $bp-small) {
+        padding: 0;
+        margin-left: 2rem;
+       }
 
     &__head {
         grid-column: 1 / 2;

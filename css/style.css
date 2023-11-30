@@ -38,11 +38,8 @@ body {
   padding: 2rem;
   gap: 5rem; }
   @media only screen and (max-width: 37.5em) {
-    .nav {
-      width: 100%;
-      justify-content: space-between;
-      padding: 0;
-      gap: 0; } }
+    .nav .nav {
+      justify-content: space-between; } }
   .nav__list {
     display: flex;
     gap: 2rem;
@@ -217,7 +214,7 @@ body {
 
 .contact {
   grid-column: center-start / center-end;
-  margin: 10rem 0;
+  margin: 5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
   grid-gap: 5rem; }

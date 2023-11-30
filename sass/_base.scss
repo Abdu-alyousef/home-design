@@ -1,0 +1,43 @@
+$color-primary: #34302F;
+$font-secondary: #BF9D77;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #6a6a6a;
+
+$color-grey-dark-1: #3d3d3d;
+$color-grey-dark-2: #34302F;
+
+// FONTS
+
+$font-primary: "Roboto", "sans-serif";
+
+//INTIAL STYLE
+
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+box-sizing: border-box;
+font-size: 62.5%;    
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-grey-dark-1;
+    font-weight: 300;
+    line-height: 1.6;
+
+}
+
+.container {
+    display: grid;
+    // margin-left: 5rem;
+    // margin-right: 5rem;
+    grid-template-rows: 80vh repeat(4, min-content);
+    grid-template-columns:[full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14.2rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+}

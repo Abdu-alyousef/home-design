@@ -1,0 +1,40 @@
+.features {
+    grid-column: center-start / center-end;
+    margin: 10rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 5rem;
+    align-items: start;
+}
+
+.featureNum {
+    grid-row: 1 / span 2;
+    display: grid;
+    grid-row-gap: 3rem;
+    margin-bottom: 5rem;
+
+    &__sub {
+        border-left: .5rem solid $font-secondary;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: .5rem;
+    }
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2rem;
+
+    &__icon {
+        grid-row: 1 / span 2;
+        color: $font-secondary;
+        font-size: 5rem;
+        transform: translateY(-1rem);
+    }
+
+    &__text {
+        font-size: 1.5rem;
+    }
+}

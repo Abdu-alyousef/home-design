@@ -18,7 +18,7 @@
 
                &:link,
                &:visited {
-                   color: #fff;
+                   color: #aaa;
                    border: none;
                    font-weight: 400;
                    text-decoration: none;
@@ -32,15 +32,16 @@
    
                &:hover,
                &:active {
-                   color: #aaa;
+                   color: #fff;
    
                }
      }
 
-     &--copy, &--text, &--head, &--icon {
+     &--copy, &--head, &--icon {
           color: #fff;
      }
      &--text {
+          color: #aaa;
           font-size: 1.6rem;
      }
 
@@ -49,9 +50,9 @@
           font-size: 3.5rem;
           transition: all .2s;
           cursor: pointer;
-          justify-self: center;
+          color: #aaa;
           &:hover {
-               color: #aaa;
+               color: #fff;
           }
      }
 }

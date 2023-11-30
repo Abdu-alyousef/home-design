@@ -266,7 +266,7 @@ body {
     justify-items: center;
     align-items: center; }
     .footer__list--link:link, .footer__list--link:visited {
-      color: #fff;
+      color: #aaa;
       border: none;
       font-weight: 400;
       text-decoration: none;
@@ -277,19 +277,20 @@ body {
       cursor: pointer;
       transition: all .2s; }
     .footer__list--link:hover, .footer__list--link:active {
-      color: #aaa; }
-    .footer__list--copy, .footer__list--text, .footer__list--head, .footer__list--icon {
+      color: #fff; }
+    .footer__list--copy, .footer__list--head, .footer__list--icon {
       color: #fff; }
     .footer__list--text {
+      color: #aaa;
       font-size: 1.6rem; }
     .footer__list--icon {
       margin: 0 2rem;
       font-size: 3.5rem;
       transition: all .2s;
       cursor: pointer;
-      justify-self: center; }
+      color: #aaa; }
       .footer__list--icon:hover {
-        color: #aaa; }
+        color: #fff; }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Roboto", "sans-serif";

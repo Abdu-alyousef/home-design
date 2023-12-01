@@ -6,6 +6,7 @@
      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
      grid-gap: 5rem;
      padding: 5rem 1rem;
+     border-top: .5rem solid $font-secondary;
     
 
      &__list {

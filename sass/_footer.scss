@@ -37,7 +37,10 @@
                }
      }
 
-     &--copy, &--head, &--icon {
+     &--copy, &--head {
+          font-family: $font-primary;
+          font-weight: 400;
+          font-size: 1.4rem;
           color: #fff;
      }
      &--text {

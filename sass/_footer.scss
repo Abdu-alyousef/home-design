@@ -24,7 +24,7 @@
                    font-weight: 400;
                    text-decoration: none;
                    border-radius: 0;
-                   font-size: 1.6rem;
+                   font-size: 1.2rem;
                    padding: 1rem;
                    text-transform: uppercase;
                    cursor: pointer;
@@ -41,17 +41,18 @@
      &--copy, &--head {
           font-family: $font-primary;
           font-weight: 400;
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           color: #fff;
+          text-align: center;
      }
      &--text {
           color: #aaa;
-          font-size: 1.6rem;
+          font-size: 1.2rem;
      }
 
      &--icon {
           margin: 0 2rem;
-          font-size: 3.5rem;
+          font-size: 1.4rem;
           transition: all .2s;
           cursor: pointer;
           color: #aaa;
